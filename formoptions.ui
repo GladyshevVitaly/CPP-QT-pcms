@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormOptions</class>
+ <widget class="QDialog" name="FormOptions">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>382</width>
+    <height>160</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>382</width>
+    <height>160</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>382</width>
+    <height>160</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Arial</family>
+    <pointsize>12</pointsize>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Настройки</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>9</y>
+     <width>364</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>208</width>
+     <height>78</height>
+    </size>
+   </property>
+   <property name="title">
+    <string>Введите IP адрес</string>
+   </property>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>28</y>
+      <width>131</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>192.168.0.1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Modem">
+    <property name="geometry">
+     <rect>
+      <x>168</x>
+      <y>28</y>
+      <width>181</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Задать IP модема</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_CleanPanel">
+   <property name="geometry">
+    <rect>
+     <x>106</x>
+     <y>106</y>
+     <width>170</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Очистить панель</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>lineEdit</tabstop>
+  <tabstop>pushButton_Modem</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

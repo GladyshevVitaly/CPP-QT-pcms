@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>Images/niiis_logo.bmp</file>
+        <file>Images/watermark_48.bmp</file>
+        <file>Images/preferences_48.bmp</file>
+        <file>Images/preferences32_h.bmp</file>
+        <file>Images/watermark_32_h.bmp</file>
+        <file>Images/stop24.bmp</file>
+        <file>Images/stop24_d.bmp</file>
+        <file>Images/connect24.bmp</file>
+        <file>Images/disconnect24.bmp</file>
+        <file>Images/stop_32.bmp</file>
+        <file>Images/stop_32_d.bmp</file>
+        <file>Images/connect32_h.bmp</file>
+        <file>Images/disconnect32.bmp</file>
+        <file>Images/stop_48_d.bmp</file>
+        <file>Images/stop_48_h.bmp</file>
+        <file>Images/factory.bmp</file>
+    </qresource>
+    <qresource prefix="/ico">
+        <file>Images/factory.ico</file>
+    </qresource>
+</RCC>
